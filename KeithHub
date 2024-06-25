@@ -52,125 +52,25 @@ soundeffect.Volume = 1
 
 wait(0.4)
 
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-
 wait(0.1)
 
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-wait(0.08)
 
 local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-
-wait(0.08)
-
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-
-wait(0.08)
-
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-
-wait(0.08)
-
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-
-wait(0.08)
-
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-
-wait(0.08)
-
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-
-wait(0.08)
-
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-
-wait(0.08)
-
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-
-wait(0.08)
-
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-
-wait(0.08)
-
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-
-wait(0.08)
-
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-
-wait(0.08)
-
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
-
-wait(0.08)
-
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.SoundId = "rbxassetid://17799049330"
 soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
 soundeffect:Play()
 soundeffect.Volume = 1
 
 wait(1.7)
 
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://14064989454"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(1)
 local soundeffect = Instance.new("Sound")
 soundeffect.SoundId = "rbxassetid://17325540665"
 soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
@@ -1070,15 +970,12 @@ anim.AnimationId = "rbxassetid://17363256069"
 
 local playAnim = humanoid:LoadAnimation(anim)
 playAnim:Play()
-
-
-
-
+wait(8.6)
 local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://0"
+soundeffect.SoundId = "rbxassetid://3183222154"
 soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
 soundeffect:Play()
-soundeffect.Volume = 1
+soundeffect.Volume = 6
 end)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
 Section:NewButton("20-20-20 Dropkick Player", "KJ's Second Ult Move Player", function()
@@ -1115,6 +1012,13 @@ local playAnim = humanoid:LoadAnimation(anim)
 playAnim:Play()
 
 playAnim2:Stop()
+wait(8.6)
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://3183222154"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 6
+
 end)
 local Section = Tab:NewSection("Metal Bat")
 Section:NewButton("Brutal Beatdown", "Metal's Second Ult Move", function()
