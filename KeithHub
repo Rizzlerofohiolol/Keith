@@ -1,17 +1,17 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Keith Hub", "GrapeTheme")
-local Tab = Window:NewTab("Moves")
-local Section = Tab:NewSection("KJ")
-Section:NewButton("Ravage Player", "Ravage move", function()
-local player = game.Players.LocalPlayer
+loal Library = loadstrng(game:Httpet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+lcal Window = Library.CreateLib("Keth Hub", "GrapeTheme")
+lo Tab = Window:NewTab("Moves")
+al Section = Tab:NewSection("KJ")
+Son:NwButton("Ravage fucker", "Ravage fucker", function()
+lal player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
-local humanoid = player.Character.Humanoid
-local character = player.Character or player.CharacterAdded:Wait()
-local UserInputService = game:GetService("UserInputService")
+lal humanoid = player.Character.Humanoid
+lal character = player.ch or player.CharacterAdded:Wait()
+lol asder = geme:GetService("UserInputService")
 
 
 local anim = Instance.new("Animation")
-anim.AnimationId = "rbxassetid://16945573694"
+anim.AnimationId = "rbxassetid://huhuhuhu"
 
 
 local playAnim = humanoid:LoadAnimation(anim)
@@ -21,14 +21,14 @@ wait(0.7)
 
 
 local anim2 = Instance.new("Animation")
-anim2.AnimationId = "rbxassetid://16945550029"
+anim2.AnimationId = "rbxassetid://ahahh"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
 
 
 
-local soundeffect = Instance.new("Sound")
+loal soundeffect = Instance.new("Sound")
 soundeffect.SoundId = "rbxassetid://17325540665"
 soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
 soundeffect:Play()
