@@ -1,3 +1,20 @@
+local player = game.Players.LocalPlayer
+local gui = script.Parent -- Assuming this script is inside a ScreenGui
+local touchInput = gui:WaitForChild("TouchInput") -- Assuming you have a TextButton or ImageButton named "TouchInput" for touch detection
+
+local function onTouch(input)
+    if input.UserInputType == Enum.UserInputType.Touch then
+        -- Handle touch input here
+        print("Touched at (" .. input.Position.X .. ", " .. input.Position.Y .. ")")
+        -- Example: Move a part based on touch position
+        -- local part = game.Workspace.PartToMove
+        -- part.Position = Vector3.new(input.Position.X, part.Position.Y, input.Position.Y)
+    end
+end
+
+-- Connect the onTouch function to the input events
+touchInput.InputBegan:Connect(onTouch)
+touchInput.InputChanged:Connect(onTouch)
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Tab = Window:NewTab("Moves")
