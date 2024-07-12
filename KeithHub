@@ -1,7 +1,7 @@
-loal Library = loadstrng(game:Httpet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-lcal Window = Library.CreateLib("Keth Hub", "GrapeTheme")
-lo Tab = Window:NewTab("Moves")
-al Section = Tab:NewSection("KJ")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Keith Hub", "GrapeTheme")
+local Tab = Window:NewTab("Moves")
+local Section = Tab:NewSection("KJ")
 Son:NwButton("Ravage fucker", "Ravage fucker", function()
 lal player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
