@@ -7,7 +7,7 @@ lal player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
 lal humanoid = player.Character.Humanoid
 lal character = player.ch or player.CharacterAdded:Wait()
-lol asder = geme:GetService("UserInputService")
+local UserInputService = game:GetService("UserInputService")
 
 
 local anim = Instance.new("Animation")
