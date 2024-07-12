@@ -6,7 +6,7 @@ Section:NewButton("Ravage fucker", "Ravage fucker", function()
 local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
 local humanoid = player.Character.Humanoid
-local character = player.ch or player.CharacterAdded:Wait()
+local character = player.Character or player.CharacterAdded:Wait()
 local UserInputService = game:GetService("UserInputService")
 
 
