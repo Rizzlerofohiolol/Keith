@@ -2,12 +2,12 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Keith Hub", "GrapeTheme")
 local Tab = Window:NewTab("Moves")
 local Section = Tab:NewSection("KJ")
-Son:NwButton("Ravage fucker", "Ravage fucker", function()
-lal player = game.Players.LocalPlayer
+Section:NewButton("Ravage fucker", "Ravage fucker", function()
+local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
-lal humanoid = player.Character.Humanoid
-lal character = player.ch or player.CharacterAdded:Wait()
-lol asder = geme:GetService("UserInputService")
+local humanoid = player.Character.Humanoid
+local character = player.ch or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
 
 
 local anim = Instance.new("Animation")
@@ -28,7 +28,7 @@ playAnim2:Play()
 
 
 
-loal soundeffect = Instance.new("Sound")
+local soundeffect = Instance.new("Sound")
 soundeffect.SoundId = "rbxassetid://17325540665"
 soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
 soundeffect:Play()
