@@ -28,7 +28,7 @@ playAnim2:Play()
 
 
 
-loal soundeffect = Instance.new("Sound")
+local soundeffect = Instance.new("Sound")
 soundeffect.SoundId = "rbxassetid://17325540665"
 soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
 soundeffect:Play()
